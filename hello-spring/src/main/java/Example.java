@@ -2,6 +2,7 @@ import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
 import org.springframework.stereotype.*;
 import org.springframework.web.bind.annotation.*;
+import java.util.*;
 
 @RestController
 @EnableAutoConfiguration
@@ -9,7 +10,7 @@ public class Example {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World! Spring-Boot!";
+        return "Hello World! Spring-Boot! " + new Date().toString();
     }
 
     public static void main(String[] args) throws Exception {
