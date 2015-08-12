@@ -8,8 +8,8 @@ puppet_nodes = [
     :ip => '172.16.32.12',
     :box => 'puppetlabs/ubuntu-14.04-64-puppet',
     :manifest => 'spring.pp',
-    :fwdguest => 9000,
-    :fwdhost => 9000,
+    :fwdguest => 9010,
+    :fwdhost => 9010,
     :ram => 512
   },
 ]

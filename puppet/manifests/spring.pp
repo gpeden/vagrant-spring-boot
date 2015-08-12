@@ -9,7 +9,7 @@ class { 'gvm' :
 }
 
 class { 'java' :
-
+  version => 'latest',
 }
 
 class { 'groovy' : 
